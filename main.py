@@ -23,4 +23,8 @@ def factorial(n):
     print("El factorial es : "end="")
     print (fact)
 
+    # Ordenar palabras
+    separarPalabras.sort()
+    print("Palabras ordenadas : " , separarPalabras)
+
 main()
