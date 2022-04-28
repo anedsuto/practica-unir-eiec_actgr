@@ -13,4 +13,8 @@ def contar_palabras(palabras):
 
         print("En total me dijiste " , len(separarPalabras) , "palabras")
 
+    # Ordenar palabras
+    separarPalabras.sort()
+    print("Palabras ordenadas : " , separarPalabras)
+
 main()
